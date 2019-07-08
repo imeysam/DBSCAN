@@ -71,15 +71,15 @@ dataset1 = np.array([
 
 dataset_list = list()
 
-read_file = open('dataset1.txt').readlines()
+read_file = open('dataset3.txt').readlines()
 for row in read_file:
     record = []
     for item in row.split(',')[0].split(';'):
-        record.append(int(item))
+        record.append(int(item) * 10)
     dataset_list.append(record)
 dataset = np.array(dataset_list)
 
-epsilon = 10
+epsilon = 55
 minPoints = 3
 
 clusters = []
@@ -107,12 +107,12 @@ while len(unvisited_points) > 0:
             neighbours.append(point)
 
     if len(neighbours) < minPoints - 1:
-        print('noise found')
-        for point in neighbours:
-            point.setNoise(True)
-            point.setVisited(True)
-            if point in unvisited_points:
-                unvisited_points.remove(point)
+        start_point.setNoise(True)
+        # for point in neighbours:
+        #     point.setNoise(True)
+        #     point.setVisited(True)
+        #     if point in unvisited_points:
+        #         unvisited_points.remove(point)
         neighbours = []
     else:
         cluster = Cluster()
