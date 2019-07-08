@@ -4,7 +4,7 @@ class Point:
     _finished: bool
     _noise: bool
 
-    def __init__(self, x, y, z = 0, o = 0):
+    def __init__(self, x, y, z, o):
         self._x = x
         self._y = y
         self._z = z
