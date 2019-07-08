@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 dataset_list = list()
 
-read_file = open('dataset3.txt').readlines()
+read_file = open('dataset1.txt').readlines()
 for row in read_file:
     record = []
     for item in row.split(',')[0].split(';'):
