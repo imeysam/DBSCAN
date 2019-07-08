@@ -1,14 +1,14 @@
 class Point:
-    _x: int
-    _y: int
     _type: int
     _visited: bool
     _finished: bool
     _noise: bool
 
-    def __init__(self, x: int, y: int):
+    def __init__(self, x, y, z = 0, o = 0):
         self._x = x
         self._y = y
+        self._z = z
+        self._o = o
         self._visited = False
         self._type = 0
         self._finished = False
@@ -22,6 +22,12 @@ class Point:
 
     def y(self):
         return self._y
+
+    def z(self):
+        return self._z
+
+    def o(self):
+        return self._o
 
     def getVisited(self):
         return self._visited
