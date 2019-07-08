@@ -6,28 +6,31 @@
 ### 3-Matplotlib
 
 
-
+##Run
+```
+python main.py
+```
 
 ##Result:
 ###In Terminal:
-####Cluster count: 3
+###Cluster count: 3
 Note: Number of all created clusters.
 
-####Cluster 1th: 10
+###Cluster 1th: 10
 Note: Number of first cluster points.
 
-####Cluster 2th: 25
+###Cluster 2th: 25
 Note: Number of second cluster points.
 
-####Cluster 3th: 15
+###Cluster 3th: 15
 Note: Number of third cluster points.
 
-####Noise count: 5
+###Noise count: 5
 Note: Number of noise.
 
 ###In Terminal:
-####Plot all data in page that separated by different color.
-####Each color represent a cluster that contains points.
+###Plot all data in page that separated by different color.
+###Each color represent a cluster that contains points.
 
 Note: Blue color points is noise.
 
