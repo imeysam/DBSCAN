@@ -1,18 +1,23 @@
-#DBSCAN
-
+#Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
 ##Requirements
 ### 1-Python3.6+
 ### 2-Numpy
-### 3-Matplotlib
+### 3-Sklearn
+### 4-Math
 
 
 ##Run
 ```
-python main.py
+$ python3 main.py
 ```
 
 ##Result:
 ###In Terminal:
+
+###Epsilon: 0.39
+###MinPoints: 4
+###Rate: 80.0% (Approximate)
+
 ###Cluster count: 3
 Note: Number of all created clusters.
 
@@ -28,10 +33,6 @@ Note: Number of third cluster points.
 ###Noise count: 5
 Note: Number of noise.
 
-###In Terminal:
-###Plot all data in page that separated by different color.
-###Each color represent a cluster that contains points.
-
-Note: Blue color points is noise.
-
+#Meysam Alipuor
+##meysam.alipuor@gmail.com
 https://github.com/ameysam/DBSCAN
