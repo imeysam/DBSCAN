@@ -6,10 +6,7 @@
 ### 3-Matplotlib
 
 
-##Run
-```python
-python3 main.py
-```
+
 
 ##Result:
 ###In Terminal:
