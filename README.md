@@ -38,4 +38,4 @@ Note: Number of noise.
 
 # Meysam Alipuor
 ## meysam.alipuor@gmail.com
-https://github.com/ameysam/DBSCAN
+https://github.com/imeysam/DBSCAN
